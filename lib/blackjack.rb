@@ -5,7 +5,7 @@ end
 
 def deal_card
   # code #deal_card here
-  card = rand(11)
+  card = rand(1..11)
   return card
 end
 
@@ -17,7 +17,7 @@ end
 def prompt_user
   # code #prompt_user here
   puts "Type 'h' to hit or 's' to stay"
-  
+
 end
 
 def get_user_input
